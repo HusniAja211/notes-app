@@ -12,6 +12,8 @@ function renderNotes() {
     const item = document.createElement('note-item');
     item.setAttribute('title', note.title);
     item.setAttribute('body', note.body);
+    item.setAttribute('id', note.id);
+    item.setAttribute('createdat', note.createdAt);
     container.appendChild(item);
   });
 }

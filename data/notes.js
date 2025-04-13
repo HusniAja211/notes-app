@@ -77,7 +77,7 @@ export const notes = [
     archived: false,
   },
   {
-    id: 'notes-9876-wxyz-1234',
+    id: 'notes-9874-wxyz-1234',
     title: 'Health Checkup',
     body: 'Schedule a routine health checkup with the doctor.',
     createdAt: '2022-10-05T09:30:45.600Z',
@@ -105,3 +105,5 @@ export const notes = [
     archived: false,
   },
 ];
+
+window.notes = notes;
